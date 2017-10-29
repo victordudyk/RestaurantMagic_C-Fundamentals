@@ -1,0 +1,18 @@
+Passenger.cs
+1. нету коментариев
+Ticket.cs
+1. нету коментариев
+AirplaneRoute.cs
+1. все свойства должны быть public
+2. в конструкторе должен быть параметр DateTime date
+3. в методе IsTodayFlight сравниваются только дата, а не полностью дата и время
+Flight.cs
+1. String flightType должен иметь тип FlightType
+2. Лишние поля passengerAddress, passengerMobileNumber
+3. Нету свойств
+4. passenger должен иметь тип Passenger
+5. тип FlightType должен быть public
+Ticket.cs
+1. нужно удалить поле priceOfTicket, использовать Flight.price
+TicketCalculator.cs
+1.  использовать Flight.price
