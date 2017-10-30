@@ -15,7 +15,9 @@ namespace ConsoleApp1
             dc.Calculate(10, DiscountType.Medium);
             dc.Calculate(10, DiscountType.High);
             var purchase = new List<Purchase>();
-            purchase.Add();
+            LessonFour lFour = new LessonFour();
+            lFour.Purchase();
+            
         }
     }     
 }

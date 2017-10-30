@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+//using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -14,13 +14,17 @@ namespace ConsoleApp1
         protected String address;
         internal int mobileNumber;
         public bool isPrimaryConsumer;
-        public Customer()
+        public Customer(String firstName, int age, DateTime dateOfRegistration, bool isPrimaryConsumer)
         {
-            firstName = "John";
-            lastName = "Snow";
-            age = 27;
-            dateOfRegistration = new DateTime(2010, 1, 1);
-            isPrimaryConsumer = true;
+            this.firstName = firstName;
+            this.age = age;
+            this.dateOfRegistration = dateOfRegistration;
+            this.isPrimaryConsumer = isPrimaryConsumer;
+            //firstName = "John";
+            //lastName = "Snow";
+            //age = 27;
+            //dateOfRegistration = new DateTime(2010, 1, 1);
+            //isPrimaryConsumer = true;
         }
         public String FirstName
         {

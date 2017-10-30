@@ -10,6 +10,10 @@ namespace ConsoleApp1
         public Purchase purchase;
         public String customer;
         public DateTime dateOfOrder = DateTime.Now;
+        public Order(Purchase x)
+        {
+            this.purchase = x;
+        }
 
         public bool IsTodayOrder()
         {

@@ -8,9 +8,9 @@ namespace ConsoleApp1
     public class Product
     {
         public String nameVar;
-        public int price;
+        public double price;
         public String productType;
-        public Product(String name, int price, String productType)
+        public Product(String name, double price, String productType)
         {
             this.nameVar = name;
             this.price = price;
