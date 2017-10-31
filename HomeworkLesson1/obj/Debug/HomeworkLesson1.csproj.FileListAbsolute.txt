@@ -1,0 +1,6 @@
+c:\users\andreywin10\documents\visual studio 2015\Projects\HomeworkLesson1\HomeworkLesson1\bin\Debug\HomeworkLesson1.exe.config
+c:\Users\AndreyWin10\Documents\Visual Studio 2015\Projects\HomeworkLesson1\HomeworkLesson1\bin\Debug\HomeworkLesson1.exe
+c:\Users\AndreyWin10\Documents\Visual Studio 2015\Projects\HomeworkLesson1\HomeworkLesson1\bin\Debug\HomeworkLesson1.pdb
+c:\Users\AndreyWin10\Documents\Visual Studio 2015\Projects\HomeworkLesson1\HomeworkLesson1\obj\Debug\HomeworkLesson1.csprojResolveAssemblyReference.cache
+c:\Users\AndreyWin10\Documents\Visual Studio 2015\Projects\HomeworkLesson1\HomeworkLesson1\obj\Debug\HomeworkLesson1.exe
+c:\Users\AndreyWin10\Documents\Visual Studio 2015\Projects\HomeworkLesson1\HomeworkLesson1\obj\Debug\HomeworkLesson1.pdb
