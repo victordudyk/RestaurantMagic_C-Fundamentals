@@ -8,11 +8,12 @@ namespace ConsoleApp1
     public class Order
     {
         public Purchase purchase;
-        public String customer;
+        public Customer customer;
         public DateTime dateOfOrder = DateTime.Now;
-        public Order(Purchase x)
+        public Order(Purchase x, Customer c)
         {
             this.purchase = x;
+            this.customer = c;
         }
 
         public bool IsTodayOrder()
@@ -34,7 +35,7 @@ namespace ConsoleApp1
             get { return purchase; }
             set { purchase = value; }
         }
-        public String Customer
+        public Customer Customer
         {
             get { return customer; }
             set { customer = value; }

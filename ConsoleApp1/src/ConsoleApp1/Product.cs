@@ -17,10 +17,10 @@ namespace ConsoleApp1
             this.productType = productType;
         }
     }
-    public enum ProductType
-    {
-        item1,
-        item2,
-        item3
-    }
+    //public enum ProductType
+    //{
+    //    item1,
+    //    item2,
+    //    item3
+    //}
 }

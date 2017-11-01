@@ -12,19 +12,18 @@ namespace ConsoleApp1
         static double defaultAmount = 1.00;
         public delegate void LogPurchaseInfo(Purchase purchase);
         public event LogPurchaseInfo Add;
-        public double Calculate(double amount)
+        public virtual double Calculate(double amount)
         {            
             return Product.price * amount;
         }
-        public Purchase(Product x, int y)
+        public Purchase(Product x, double y)
         {
             this.ProductOne = x;
             this.amount = y;
-
         }
         public Product Product
         {
-            get { return Product; }
+            get { return ProductOne; }
             set { ProductOne = value; }
         }
         public double Amount

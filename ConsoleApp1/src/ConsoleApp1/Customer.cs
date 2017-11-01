@@ -14,17 +14,14 @@ namespace ConsoleApp1
         protected String address;
         internal int mobileNumber;
         public bool isPrimaryConsumer;
-        public Customer(String firstName, int age, DateTime dateOfRegistration, bool isPrimaryConsumer)
+        public virtual DiscountType dt { get; set; }
+        public Customer(String firstName, int age, DateTime dateOfRegistration, bool isPrimaryConsumer, DiscountType dt)
         {
             this.firstName = firstName;
             this.age = age;
             this.dateOfRegistration = dateOfRegistration;
             this.isPrimaryConsumer = isPrimaryConsumer;
-            //firstName = "John";
-            //lastName = "Snow";
-            //age = 27;
-            //dateOfRegistration = new DateTime(2010, 1, 1);
-            //isPrimaryConsumer = true;
+            this.dt = dt;
         }
         public String FirstName
         {
