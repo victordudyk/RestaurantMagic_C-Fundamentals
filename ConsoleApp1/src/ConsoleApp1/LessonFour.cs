@@ -9,9 +9,9 @@ namespace ConsoleApp1
     {
         public void Purchase()
         {
-            Customer customer1 = new Customer("John", 20, DateTime.Now, true, DiscountType.High);
-            Customer customer2 = new Customer("Richard", 20, DateTime.Now, true, DiscountType.Medium);
-            Customer customer3 = new Customer("Jerry", 20, DateTime.Now, true, DiscountType.Low);
+            Customer customer1 = new GoldCustomer("John", 20, DateTime.Now, true, DiscountType.High);
+            Customer customer2 = new SilverCustomer("Richard", 20, DateTime.Now, true, DiscountType.Medium);
+            Customer customer3 = new BronzeCustomer("Jerry", 20, DateTime.Now, true, DiscountType.Low);
 
             Product productOne = new Product("Banana", 10, "Fruit");
             Product productTwo = new Product("Apple", 8, "Fruit");
@@ -48,7 +48,7 @@ namespace ConsoleApp1
             foreach (var item in listOfOrders)
             {
                 //Console.WriteLine("Index of order is: " + listOfOrders.IndexOf(item));
-                var currentsumOrder = item.purchase.amount * item.Purchase.ProductOne.price;
+                var currentsumOrder = item.Purchase.amount * item.Purchase.product.price;
                 sumOrder = sumOrder + currentsumOrder;
             }
             //Console.WriteLine("Sum of order is: " + sumOrder);
@@ -87,8 +87,8 @@ namespace ConsoleApp1
 
             //List<String> lpTwo = listOfOrdersLINQ.Select(l => l.Purchase.Product.productType).ToList();
             List<String> lpTwo = (from l in listOfOrdersLINQ
-                                  where l.Purchase.Product.productType == "Vegetable"
-                                  select l.Purchase.Product.nameVar).ToList();
+                                  where l.Purchase.product.productType == "Vegetable"
+                                  select l.Purchase.product.nameVar).ToList();
             lpTwo.ForEach(l => Console.WriteLine(l));
             Console.Read();
         }

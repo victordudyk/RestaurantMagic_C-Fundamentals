@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class Customer
+    public abstract class Customer
     {
         public String firstName;
         public String lastName;

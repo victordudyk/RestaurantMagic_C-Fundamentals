@@ -7,10 +7,10 @@ namespace ConsoleApp1
 {
     public class Order
     {
-        public Purchase purchase;
-        public Customer customer;
+        IPurchase purchase;
+        Customer customer;
         public DateTime dateOfOrder = DateTime.Now;
-        public Order(Purchase x, Customer c)
+        public Order(IPurchase x, Customer c)
         {
             this.purchase = x;
             this.customer = c;
@@ -21,7 +21,7 @@ namespace ConsoleApp1
             return dateOfOrder.Date == DateTime.Now.Date;
         }
 
-        public Purchase Summarize()
+        public IPurchase Summarize()
         {
             return purchase;
         }
@@ -30,7 +30,7 @@ namespace ConsoleApp1
 
         }
 
-        public Purchase Purchase
+        public IPurchase Purchase
         {
             get { return purchase; }
             set { purchase = value; }
