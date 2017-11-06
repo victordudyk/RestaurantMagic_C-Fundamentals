@@ -1,0 +1,7 @@
+C:\Users\viktor.dudyk\Desktop\Programming in C sharp Fundamentals\Lesson 7\Lesson7\Lesson7\bin\Debug\Lesson7.exe.config
+C:\Users\viktor.dudyk\Desktop\Programming in C sharp Fundamentals\Lesson 7\Lesson7\Lesson7\bin\Debug\Lesson7.exe
+C:\Users\viktor.dudyk\Desktop\Programming in C sharp Fundamentals\Lesson 7\Lesson7\Lesson7\bin\Debug\Lesson7.pdb
+C:\Users\viktor.dudyk\Desktop\Programming in C sharp Fundamentals\Lesson 7\Lesson7\Lesson7\obj\Debug\Lesson7.csprojResolveAssemblyReference.cache
+C:\Users\viktor.dudyk\Desktop\Programming in C sharp Fundamentals\Lesson 7\Lesson7\Lesson7\obj\Debug\Lesson7.csproj.CoreCompileInputs.cache
+C:\Users\viktor.dudyk\Desktop\Programming in C sharp Fundamentals\Lesson 7\Lesson7\Lesson7\obj\Debug\Lesson7.exe
+C:\Users\viktor.dudyk\Desktop\Programming in C sharp Fundamentals\Lesson 7\Lesson7\Lesson7\obj\Debug\Lesson7.pdb
