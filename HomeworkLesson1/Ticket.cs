@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace HomeworkLesson1
 {
+   
     public class Ticket
     {
         public static Ticket Emptyticket;
@@ -21,7 +22,7 @@ namespace HomeworkLesson1
             Flight = flight;
 
         }
-        public decimal CalculatePrice()
+        public virtual decimal CalculatePrice()
         {
             return TicketCalculator.Calculate(Passenger, Flight); 
         }
@@ -33,17 +34,6 @@ namespace HomeworkLesson1
         }
 
     }
-    public static class TicketCalculator
-        {
-            public static decimal Calculate(Ticket t)
-            {
-                return t.CalculatePrice();
-            }
-
-            public static decimal Calculate(Passenger p, Flight f)
-            {
-                return DiscountCalculator.Calculate(f.Price, p.Discounttype);
-            }
-        }
+   
         
 }

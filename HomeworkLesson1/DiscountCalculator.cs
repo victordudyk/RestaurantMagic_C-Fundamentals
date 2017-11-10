@@ -28,6 +28,7 @@ namespace HomeworkLesson1
             }
             else
             {
+                //throw new Exception("High discount type is unavaialable");
                 price = (100M - 3)/100M * price;
                 return price;
             }

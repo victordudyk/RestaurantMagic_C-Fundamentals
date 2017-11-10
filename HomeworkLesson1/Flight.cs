@@ -21,6 +21,7 @@ namespace HomeworkLesson1
             this.flightType = flightType;
         }
 
+
     }
 
 }

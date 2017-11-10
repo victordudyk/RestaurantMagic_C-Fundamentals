@@ -46,14 +46,20 @@
     <Compile Include="Airplane.cs" />
     <Compile Include="AirplaneFlight.cs" />
     <Compile Include="AirplaneRoute.cs" />
+    <Compile Include="BestTicket.cs" />
     <Compile Include="DiscountCalculator.cs" />
     <Compile Include="DiscountType.cs" />
     <Compile Include="Flight.cs" />
     <Compile Include="FlightType.cs" />
+    <Compile Include="GoldPassenger.cs" />
+    <Compile Include="Lessons.cs" />
+    <Compile Include="LogTicketInfo.cs" />
+    <Compile Include="SilverPassanger.cs" />
     <Compile Include="Ticket.cs" />
     <Compile Include="Passenger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TicketCalculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
